@@ -11,7 +11,7 @@ cd Key-Logger
 
 nano keylogger.py
 
-Now edit the log files address to the file you want.
+Now edit the log file's address to the file you want.
 
 Now add a command to run this python file as a startup application.
 
