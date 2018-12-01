@@ -17,6 +17,7 @@ import datetime
 
 today=datetime.datetime.now()
 
+# Change this file to yout log file.
 fob=open("/home/raman/Style/.Hidden/file.log","aw+")
 fob.write("\n")
 fob.write(str(today))
